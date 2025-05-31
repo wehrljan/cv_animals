@@ -13,6 +13,8 @@ Dieses Projekt beschäftigt sich mit der Klassifikation von Bildern in 90 versch
 
 ## Labels
 Das Model kann die folgenden 90 Tierarten unterscheiden und klassifizieren: 
+
+['antelope', 'badger', 'bat', 'bear', 'bee', 'beetle', 'bison', 'boar', 'butterfly', 'cat', 'caterpillar', 'chimpanzee', 'cockroach', 'cow', 'coyote', 'crab', 'crow', 'deer', 'dog', 'dolphin', 'donkey', 'dragonfly', 'duck', 'eagle', 'elephant', 'flamingo', 'fly', 'fox', 'goat', 'goldfish', 'goose', 'gorilla', 'grasshopper', 'hamster', 'hare', 'hedgehog', 'hippopotamus', 'hornbill', 'horse', 'hummingbird', 'hyena', 'jellyfish', 'kangaroo', 'koala', 'ladybugs', 'leopard', 'lion', 'lizard', 'lobster', 'mosquito', 'moth', 'mouse', 'octopus', 'okapi', 'orangutan', 'otter', 'owl', 'ox', 'oyster', 'panda', 'parrot', 'pelecaniformes', 'penguin', 'pig', 'pigeon', 'porcupine', 'possum', 'raccoon', 'rat', 'reindeer', 'rhinoceros', 'sandpiper', 'seahorse', 'seal', 'shark', 'sheep', 'snake', 'sparrow', 'squid', 'squirrel', 'starfish', 'swan', 'tiger', 'turkey', 'turtle', 'whale', 'wolf', 'wombat', 'woodpecker', 'zebra']
 |          |          |              |             |          |
 |----------|----------|--------------|-------------|----------|
 | antelope | dog         | hippopotamus | orangutan | seahorse |
@@ -35,10 +37,11 @@ Das Model kann die folgenden 90 Tierarten unterscheiden und klassifizieren:
 | deer     | hedgehog    | okapi        | sandpiper | zebra    |
 
 ## Data Sources
-| Data Source | Description | Features |
-|-|-|-|
-| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | Der Datensatz stammt von Kaggle und enthält 5’400 Tierbilder aus 90 verschiedenen Arten. Laut dem Ersteller des Datensatzes stammen die Bilder ursprünglich von Google. Der Datensatz ist auf Kaggle bereits gut strukturiert indem es pro Tierart einen Ordner gibt.
- | - **bild**: the image stored in PIL format<br> - **label**: Die Ordner sin dmit dem Namen der Tierart benannt und enthälten die entsprechenden Bilder.|
+| Data Source | Description |
+|-|-|
+| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | Der Datensatz stammt von Kaggle und enthält 5’400 Tierbilder aus 90 verschiedenen Arten, die von Google stammen. Der Datensatz ist auf Kaggle bereits gut strukturiert indem es pro Tierart einen Ordner gibt.
+ | Weitere Testdaten | Es wurden weitere 5 Tierbilder von Google heruntergeladen und manuell gelabelt. Davon sind einige Tierarten nicht trainiert worden.
+ 
 
 ## Model Training
 ### Data Augmentation
