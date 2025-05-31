@@ -1,16 +1,18 @@
-# vit-90-animals
-## Project Description
-This project involves training a Vision Transformer (ViT) model to classify images into 90 different animal species. The model was fine-tuned on a labeled dataset and achieves high accuracy on unseen test data. In addition to training our own model, we evaluate its performance by comparing it to a zero-shot image classification model (CLIP), which predicts labels without prior training on the dataset.
+# Computer Vision Animals
+## Projektbeschreibung
+Dieses Projekt beschäftigt sich mit der Klassifikation von Bildern in 90 verschiedene Tierklassen. Ziel ist es, zwei unterschiedliche Ansätze zu vergleichen:
+- Transfer Learning mit einem vortrainierten Vision Transformer (ViT) Modell, das auf das eigene Datenset feinabgestimmt wurde.
+- Zero-Shot Learning mit dem OpenAI CLIP Modell, welches in der Lage ist, ohne direktes Training auf dem Datensatz Klassifikationen durchzuführen.
 
-## Artefacts
+## Artefakte
 | Name | URL |
 |-|-|
-| Huggingface | [Huggingface Space](https://huggingface.co/spaces/maceythm/vit-90-animals) |
-| Model Page | [Huggingface Model Page](https://huggingface.co/maceythm/vit-90-animals) |
-| Code | [GitHub](https://github.com/maceythm/vit-90-animals) |
+| Huggingface | [Huggingface Space](https://huggingface.co/spaces/Dalmatiner/cv_animals) |
+| Model Page | [Huggingface Model Page](https://huggingface.co/Dalmatiner/cv_animals) |
+| Code | [GitHub](https://github.com/wehrljan/cv_animals) |
 
 ## Labels
-The model can distinguish between the following 90 animal species:
+Das Model kann die folgenden 90 Tierarten unterscheiden und klassifizieren: 
 |          |          |              |             |          |
 |----------|----------|--------------|-------------|----------|
 | antelope | dog         | hippopotamus | orangutan | seahorse |
@@ -35,7 +37,8 @@ The model can distinguish between the following 90 animal species:
 ## Data Sources
 | Data Source | Description | Features |
 |-|-|-|
-| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | The dataset was obtained from Kaggle and contains 5,400 images of animals across 90 different species. According to the dataset creator, the images originally come from Google. The data is already well-structured on Kaggle, which is a major advantage for our project. | - **image**: the image stored in PIL format<br> - **label**: the ID of a folder in the dataset. the folder ist named with the species of the animal and contains corresponding images.|
+| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | Der Datensatz stammt von Kaggle und enthält 5’400 Tierbilder aus 90 verschiedenen Arten. Laut dem Ersteller des Datensatzes stammen die Bilder ursprünglich von Google. Der Datensatz ist auf Kaggle bereits gut strukturiert indem es pro Tierart einen Ordner gibt.
+ | - **bild**: the image stored in PIL format<br> - **label**: Die Ordner sin dmit dem Namen der Tierart benannt und enthälten die entsprechenden Bilder.|
 
 ## Model Training
 ### Data Augmentation
