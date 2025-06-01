@@ -62,6 +62,8 @@ Details of training can be found on [Huggingface TensorBoard](https://huggingfac
 | Transfer Learning mit `google/vit-base-patch16-224` (ohne data augmentation) | runs/May29_20-53-28_ip-10-192-12-231 |
 | Transfer Learning mit `google/vit-base-patch16-224` (mit data augmentation) | runs/May31_22-34-33_ip-10-192-12-38 |
 
+<img width="858" alt="eval_accuracy" src="https://github.com/user-attachments/assets/0ddd7673-f0b5-45e1-b701-0a598e62fcaf" />
+
 
 ## Resultate aus Transfer Learning und CLIP
 | Model/Methode | Accuracy | Precision | Recall |
@@ -72,6 +74,9 @@ Details of training can be found on [Huggingface TensorBoard](https://huggingfac
 
 
 ## Referenzen
+![Label_distribution](https://github.com/user-attachments/assets/69c22c0f-43e0-442c-91cf-a9eb8ad4ff8f)
+
+![predicted_labels](https://github.com/user-attachments/assets/caa6618e-0ded-4a47-bf0f-2ea2c32eeb75)
 
 
 
