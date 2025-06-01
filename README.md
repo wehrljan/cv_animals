@@ -20,7 +20,7 @@ Das Model kann die folgenden 90 Tierarten unterscheiden und klassifizieren:
 ## Datenquellen
 | Datenquelle | Beschreibung |
 |-|-|
-| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | Der Datensatz stammt von Kaggle und enthält 5’400 Tierbilder aus 90 verschiedenen Arten, die von Google stammen. Der Datensatz ist auf Kaggle bereits gut strukturiert indem es pro Tierart einen Ordner gibt.
+| [Kaggle - Animal Image Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals) | Der Datensatz stammt von Kaggle und enthält 5’400 Tierbilder aus 90 verschiedenen Arten, die von Google stammen. Der Datensatz ist auf Kaggle bereits gut strukturiert indem es pro Tierart einen Ordner gibt. Die Daten wurde auch hier auf SwitchDrive hochgeladen: https://drive.switch.ch/index.php/s/dnrrhuMHJppOHMq 
  | Weitere Testdaten | Es wurden weitere 5 Tierbilder von Google heruntergeladen und manuell gelabelt. Davon sind einige Tierarten nicht trainiert worden.
  
 ### Data Augmentation
