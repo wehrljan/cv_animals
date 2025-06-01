@@ -52,11 +52,12 @@ Es wurden insgesamt 90 Tierkategorien mit 5400 Bilder als Daten für Training, V
 
 | Epoch | Training Loss | Validation Loss | Accuracy |
 |-|-|-|-|
-|	1.0	| 1.1803	| 0.3215	| 0.9630
-|	2.0 |	0.2779	| 0.1634	| 0.9648
-|	3.0	| 0.1745	| 0.1407	| 0.9648
-|	4.0	| 0.1608	| 0.1322	| 0.9630
-|	5.0	| 0.1486	| 0.1281	| 0.9648
+|	1.0	| 1.1951	| 0.3316	| 0.9648
+|	2.0 |	0.2763	| 0.1710	| 0.9667
+|	3.0	| 0.1772	| 0.1482	| 0.9648
+|	4.0	| 0.1533	| 0.1391	| 0.9704
+|	5.0	| 0.1462	| 0.1350	| 0.9685
+
 
 ### TensorBoard
 Details of training can be found on [Huggingface TensorBoard](https://huggingface.co/Dalmatiner/cv_animals/tensorboard)
