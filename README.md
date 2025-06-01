@@ -4,6 +4,9 @@ Dieses Projekt beschäftigt sich mit der Klassifikation von Bildern in 90 versch
 - Transfer Learning mit einem vortrainierten Vision Transformer (ViT) Modell, das auf das eigene Datenset feinabgestimmt wurde.
 - Zero-Shot Learning mit dem OpenAI CLIP Modell, welches in der Lage ist, ohne direktes Training auf dem Datensatz Klassifikationen durchzuführen.
 
+Datensatz (Ordner "animals") war zu gross für github und musste auf SwitchDrive hochgeladen werden:
+https://drive.switch.ch/index.php/s/dnrrhuMHJppOHMq
+
 ## Name & URL
 | Name | URL |
 |-|-|
