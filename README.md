@@ -37,7 +37,7 @@ Das Model kann die folgenden 90 Tierarten unterscheiden und klassifizieren:
 ## Model Training
 
 ### Data Splitting Methode - Train/Validation/Test
-Es wurden insgesamt 90 Tierkategorien mit 5400 Bilder als Daten für Training, VAlidierung und Testing genutzt. Aufgeteilt wurden sie wie folgt: 
+Es wurden insgesamt 90 Tierkategorien mit 5400 Bilder als Daten für Training, Validierung und Testing genutzt. Aufgeteilt wurden sie wie folgt: 
 
 80% für Training, 10% für Validation und 10% für Test
 
