@@ -75,6 +75,24 @@ Details of training can be found on [Huggingface TensorBoard](https://huggingfac
 | Transfer Learning with `google/vit-base-patch16-224` (mit data augmentation) | 98.7% | - | - |
 | Zero-shot Image Classification with `openai/clip-vit-large-patch14` | 96.3% | 97.1% | 96.3% |
 
+## Interpretation & Vergleich
+
+### Accuracy (Genauigkeit):
+- Das feinjustierte ViT-Modell übertrifft das Zero-Shot-Modell bei der Klassifikationsgenauigkeit.
+- Auch ohne Augmentation liefert ViT 97.2 % Accuracy, was auf sehr gutes Feintuning deutet.
+
+### Data Augmentation:
+- Erhöht die Robustheit des Modells mit einer Accuracy-Zunahme (von 97.2% auf 98.7 %).
+
+### Zero-Shot CLIP-Modell:
+- Dieses Modell hat eine sehr gute Leistung ohne Finetuning mit 96.3 % Accuracy.
+- Präzision und Recall sind ebenfalls hoch (97.1 % und 96.3 %)
+- CLIP ist auch vortrainiert und generalisiert sehr gut.
+
+## Fazit
+Das feinjustierte ViT-Modell zeigt die höchste Klassifikationsgenauigkeit und ist ideal, wenn ausreichend gelabelte Trainingsdaten vorhanden sind.
+Das Zero-Shot CLIP-Modell benötigt jedoch kein Training auf dem gezielten Datensatz, bietet aber trotzdem eine sehr konkurrenzfähige Leistung. Es eignet sich für schnelle Prototypen oder Fälle, in denen keine Labels verfügbar sind.
+Während ViT für hohe Genauigkeit optimiert werden kann, überzeugt CLIP durch Flexibilität und gute Generalisierung.
 
 ## Referenzen
 ![Label_distribution](https://github.com/user-attachments/assets/69c22c0f-43e0-442c-91cf-a9eb8ad4ff8f)
